@@ -1,0 +1,75 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 175%;
+}
+.menuItem { 
+  width: 33%;
+  text-align: center;
+  float: right;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+#chicken {
+  background-color: #FFA07A; 
+  color: #000000;
+  font-size: 125%;
+}
+
+#beef {
+  background-color: #B22222;
+  color: #FFFFFF;
+  font-size: 125%;
+}
+
+#sushi {
+  background-color: #EEE8AA; 
+  color: #000000;
+  font-size: 125%;
+}
+
+.column {
+    float: left;
+    border: 2px solid black;
+    background-color: #DCDCDC;
+    margin: 1%;
+}
+
+p {
+  padding-top: 3%;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  margin: 1%;
+}
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 30.33%;
+  }
+}
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 47%;
+  }
+  .col-md-12 {
+    width: 96%;
+  }
+}
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 96%;
+  }
+}
