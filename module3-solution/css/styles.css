@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#main-content h1 {
+  margin-bottom: 45px;
+  margin-top: -20px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navbar-brand a {
+	color: #000;
+}
+
+section {
+    background-color: #DCDCDC;
+}
+
+.menuItem {
+	font-weight: bold;
+	font-size: 1.8em;
+}
+
+#collapsable-nav {
+	margin-top: 50px;
+}
+
+li:hover {
+	background-color: #DCDCDC;
+}
+
+hr {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.navbar-fixed-top {
+  top: 0px;
+}
+
+.navbar-fixed-top {
+  position: relative;
+}
+
+.jumbotron {
+	background-color: #fff;	
+}
+
+.column {
+	margin-bottom: 30px;
+}
